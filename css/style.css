@@ -345,12 +345,69 @@ footer {
 
 
 
+/* -----------------------------------------------
+    X-Large devices (large desktops, 1200px and up)
+--------------------------------------------------*/
+@media (max-width: 1280px) { 
+    .banner {
+        margin: 24px;
+    }
+
+    /* gallery */
+    .gallery {
+        margin: 24px;
+    }
+    .gallery-body {
+        grid-template-columns: repeat(2, 1fr);
+        
+    }
+    /* match */
+    .match {
+        grid-template-columns: repeat(3, 1fr);
+
+    }
+    /* footer */
+    .footer-social {
+        display: none;
+    }
+
+ }
+/* -----------------------------------------------
+    X-Large devices (large desktops, 1200px and up)
+--------------------------------------------------*/
+@media (max-width: 1200px) { 
+    .banner {
+        margin: 24px;
+    }
+
+    /* gallery */
+    .gallery {
+        margin: 24px;
+    }
+    .gallery-body {
+        grid-template-columns: repeat(2, 1fr);
+        
+    }
+    /* match */
+    .match {
+        grid-template-columns: repeat(2, 1fr);
+
+    }
+    /* footer */
+    .footer-social {
+        display: none;
+    }
+
+ }
+
+
+
 
 
 /* -----------------------------------------------
             iOS iPad Air 2
 --------------------------------------------------*/
-@media (min-width: 820px) { 
+@media (max-width: 992px) { 
     .banner {
         display: flex;
         flex-direction: row;
@@ -523,7 +580,7 @@ footer {
         display: flex;
         flex-direction: column;
         align-items: center;
-        margin: 7px 24px;
+        margin: 24px;
         border-radius: 10px;
     }
     .banner-content {
@@ -609,14 +666,7 @@ footer {
 }
 
 
-/* -----------------------------------------------
-    X-Large devices (large desktops, 1200px and up)
---------------------------------------------------*/
-@media (min-width: 1200px) { 
-    .footer-social {
-        display: none;
-    }
- }
+
 
 /* X-Large devices (large desktops, less than 1400px) */
 @media (min-width: 1400px) {  }
