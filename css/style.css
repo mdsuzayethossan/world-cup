@@ -376,6 +376,12 @@ footer {
     X-Large devices (large desktops, 1200px and up)
 --------------------------------------------------*/
 @media (max-width: 1200px) { 
+    .banner-image {
+        margin: 0 24px 0 0;
+    }
+    .banner-content {
+        padding: 190px 0 0 30px;
+    }
     .banner {
         margin: 24px;
     }
